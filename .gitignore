@@ -6,8 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
+ 
+ # dependecies
+client/node_modules
+server/node_modules
+client/.env
+server/.env
 dist
 dist-ssr
 *.local
